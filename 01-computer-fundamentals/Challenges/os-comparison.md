@@ -8,4 +8,4 @@
 
 ## What I Learned
 
-[The Windows OS is the mosty day to day user freindly , with a medium price tag and a wide abilty to benefit from cloud stuff. Although it is Widely targeted by malware windows offers windows defenders which succeeds in removing most of the malware. The macOS is more bussiness or porfessinal specific OS with a cheap price and a Higly secure system due to apple control on apps and files. Howver it isnt really used  for Cloud. Linux OS dominates the cloud as its much cheaper than everything else  more effiecint more flexiable and more eaisly automated than anything else,The Linux permissions model is highly secure. Because the source code is public, a massive global community constantly finds and patches security flaws.]
+[Windows is widely used on desktop computers and is frequently targeted by malware. macOS is Apple's closed-source OS and is built on a Unix foundation. Linux is open-source and dominates cloud infrastructure because it is lightweight, flexible, highly automatable, and has strong security features.]
