@@ -1,0 +1,33 @@
+# AWS Cost Anomaly Detector
+# Phase: 2 - Python Programming
+# Lesson: 4 - Math & Operators
+
+string = input("Please paste your string here: ")
+string = string.strip()
+if len(string) == 0:
+    exit()
+
+parts = string.split(" ")
+
+yesterday_raw = parts[1]
+today_raw = parts[2]
+
+# Split the key:value pairs and extract the numbers
+yesterday = yesterday_raw.split(":")
+today = today_raw.split(":")
+
+# Convert string numbers to floats for math
+yesterday_cost = float(yesterday[1])
+today_cost = float(today[1])
+
+# Calculate difference and percentage increase
+difference = today_cost - yesterday_cost
+percent_increase = (difference / yesterday_cost) * 100
+
+# Security/Billing Alert Logic
+if percent_increase > 50:
+    print(f"🚨 ALERT: Cost spiked by {percent_increase:.1f}%!")
+else:
+    print("✅ Normal billing.")
+
+print(f"Change: ${difference:.1f}")
